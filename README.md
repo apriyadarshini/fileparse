@@ -18,4 +18,7 @@ Starts the api server with endpoints given
 
 Endpoints are defined in the search package (psearch.search.routes) which is registered as a blueprint with the app for scalability purpose.
 
+#API s provided:
+ curl  http://localhost:5000/id/<id> - retrieves a single product by its id
+ curl  http://localhost:5000/cheap/<n> - retrieves the N cheapest products (where N is a configurable number that the client can specify)
 
