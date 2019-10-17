@@ -4,7 +4,7 @@
 After cloning, 
 from the directory where run.py is present, do the following:
 
-export FLASK_APP=run.py
+export FLASK_APP=run.py;
 flask run --host=0.0.0.0
 
 #Documentation:
