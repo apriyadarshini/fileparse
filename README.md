@@ -20,7 +20,7 @@ Endpoints are defined in the search package (psearch.search.routes) which is reg
 
 #API s provided:
 
- curl  http://localhost:5000/id/<id> - retrieves a single product by its id
+ curl  http://localhost:5000/id/ID - retrieves a single product by its ID (where ID is a configurable string that the client can specify)
  
- curl  http://localhost:5000/cheap/<n> - retrieves the N cheapest products (where N is a configurable number that the client can specify)
+ curl  http://localhost:5000/cheap/N - retrieves the N cheapest products (where N is a configurable number that the client can specify)
 
