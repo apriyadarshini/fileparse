@@ -51,7 +51,7 @@ def create_app():
                     value['price'] = float(value['price'])
                     lstfinal.append(value)
                 
-        
+     
     #sort the values in list based on price          
     from operator import itemgetter         
     lstfinal.sort(key=itemgetter('price'))
