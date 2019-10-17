@@ -24,3 +24,4 @@ Endpoints are defined in the search package (psearch.search.routes) which is reg
  
  curl  http://localhost:5000/cheap/N - retrieves the N cheapest products (where N is a configurable number that the client can specify)
 
+<iframe src="https://giphy.com/embed/K9b2WiPZi0ZjO" width="480" height="361" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/eating-deer-K9b2WiPZi0ZjO">via GIPHY</a></p>
